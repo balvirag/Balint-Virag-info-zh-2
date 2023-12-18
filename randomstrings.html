@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Strings</title>
+    <link rel="stylesheet" type="text/css" href="./style/stilus.css" title="normal">
+    <script src="./script/rand_strings.js"></script>
+</head>
+<body style="font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;">
+
+    <div>
+        <a href="tasks.html" class="button" style="color: darkolivegreen;">&laquo;Back to Tasks</a>
+    </div>
+
+    <div id="background">
+        <img id="bg1" src="./img/english_class.jpg" style="max-width: 100%" alt="Books and apple on desk.">
+    </div>
+
+    <div>
+        <a href="tasks.html" class="button" style="color: darkolivegreen;">&laquo;Back to Tasks</a>
+    </div>
+
+    <div id="bgtext" style="font-size: medium;">
+        <h1>Random Grocery Item Selector</h1>
+        <h2>You don't need more than 3 things anyways. But what will it be? Bread, milk and some eggs? Or glue, blue cheese and 
+            a bottle of insecticide? Let's find out!</h2>
+        <p>Enter the strings separated by commas:</p>
+        <textarea type="text" id="input" rows="4" cols="50"></textarea>
+        <button type="button" onclick="RandomStrings()">Make selection!</button>
+        <p id="result"></p>
+    </div>
+
+</body>
+</html>
