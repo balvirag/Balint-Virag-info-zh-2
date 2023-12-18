@@ -4,23 +4,43 @@
     <meta charset="UTF-8">
     <title>Paralelogram Area</title>
     <script src="./script/paralelogram.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style/stilus.css" title="normal">
 </head>
-<body style="font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif; margin: 5%">
-    <h2>Calculate the area of a paralelogram by the length of its base and corresponding height</h1>
-    <form>
-        Length of base: <input type="number" id="base"><br><br>
-        Height: <input type="number" id="height"><br><br>
-        <button type="button" onclick="AreaBaseHeight()">Calculate</button>
-    </form>
-    <p id="area1"></p>
+<body style="font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;">
+    <div id="bgtext">
+        <h2 style="font-size: small;">Calculate the area of a paralellogram by the length of its base and corresponding height</h2>
+        <form style="font-size: small;">
+            <label>unit</label>
+            <select id="unit1" name="unit1">
+              <option value="mm" selected>mm</option>
+              <option value="cm">cm</option>
+              <option value="m">m</option>
+            </select><br><br>
+            Length of base: <input type="number" min="0" id="base"><br><br>
+            Height: <input type="number" min="0" id="height"><br><br>
+            <button type="button" onclick="AreaBaseHeight()">Calculate</button>
+        </form>
+        <p id="area1" style="font-size: small;"></p>
 
-    <h2>Calculate the area of a paralelogram with a known angle and the lengths of its sides</h1>
-    <form>
-        Angle: <input type="number" id="angle"><br><br>
-        Side 1: <input type="number" id="side1"><br><br>
-        Side 2: <input type="number" id="side2"><br><br>
-        <button type="button" onclick="AreaAngleSides()">Calculate</button>
-    </form>
-    <p id="area2"></p>
+        <h2 style="font-size: small;">Calculate the area of a paralellogram with a known angle and the lengths of its sides</h2>
+        <form style="font-size: small;">
+            <label>unit</label>
+            <select id="unit2" name="unit2">
+              <option value="mm">mm</option>
+              <option value="cm">cm</option>
+              <option value="m">m</option>
+            </select><br><br>
+            Angle: <input type="number" min="0" id="angle"><br><br>
+            Side 1: <input type="number" min="0" id="side1"><br><br>
+            Side 2: <input type="number" min="0" id="side2"><br><br>
+            <button type="button" onclick="AreaAngleSides()">Calculate</button>
+        </form>
+        <p id="area2" style="font-size: small;"></p>
+    </div>
+
+    <div id="background">
+        <img id="bg1" src="./img/math.jpg" style="max-width: 100%" alt="Yellow background and two pencils.">
+    </div>
+
 </body>
 </html>
