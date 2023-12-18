@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Prices</title>
+    <script src="./script/prices.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style/stilus.css" title="normal">
+</head>
+<body style="font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;">
+
+    <div>
+        <a href="tasks.html" class="button" style="color: darkolivegreen;">&laquo;Back to Tasks</a>
+    </div>
+
+    <div id="background">
+        <img id="bg1" src="./img/shopping.jpg" style="max-width: 100%" alt="Woman shopping.">
+    </div>
+
+    <div id="bgtext" style="font-size: medium; width: 900px;">
+        <h1>Products and prices</h1>
+        <form>
+            <label for="product1">Name of 1st product:</label>
+            <input type="text" id="product1">
+            <label for="price1">Price of 1st product:</label>
+            <input type="number" id="price1" min="0"><br><br>
+
+            <label for="product2">Name of 2nd product:</label>
+            <input type="text" id="product2">
+            <label for="price2">Price of 2nd product:</label>
+            <input type="number" id="price2" min="0"><br><br>
+
+            <label for="product3">Name of 3rd product:</label>
+            <input type="text" id="product3">
+            <label for="price3">Price of 3rd product:</label>
+            <input type="number" id="price3" min="0"><br><br>
+
+            <label for="product4">Name of 4th product:</label>
+            <input type="text" id="product4">
+            <label for="price4">Price of 4th product:</label>
+            <input type="number" id="price4" min="0"><br><br>
+
+            <label for="product5">Name of 5th product:</label>
+            <input type="text" id="product5">
+            <label for="price5">Price of 5th product:</label>
+            <input type="number" id="price5" min="0"><br><br>
+            
+            <button type="button" onclick="calculatePrices()">Calculate</button>
+        </form>
+
+        <p id="cheapest"></p>
+        <p id="meanPrice"></p>
+        <p id="stdDev"></p>
+    </div  >
+    
+</body>
+</html>
