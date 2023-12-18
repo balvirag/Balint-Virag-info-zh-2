@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Paralelogram Area</title>
+    <script src="./script/paralelogram.js"></script>
+</head>
+<body style="font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif; margin: 5%">
+    <h2>Calculate the area of a paralelogram by the length of its base and corresponding height</h1>
+    <form>
+        Length of base: <input type="number" id="base"><br><br>
+        Height: <input type="number" id="height"><br><br>
+        <button type="button" onclick="AreaBaseHeight()">Calculate</button>
+    </form>
+    <p id="area1"></p>
+
+    <h2>Calculate the area of a paralelogram with a known angle and the lengths of its sides</h1>
+    <form>
+        Angle: <input type="number" id="angle"><br><br>
+        Side 1: <input type="number" id="side1"><br><br>
+        Side 2: <input type="number" id="side2"><br><br>
+        <button type="button" onclick="AreaAngleSides()">Calculate</button>
+    </form>
+    <p id="area2"></p>
+</body>
+</html>
