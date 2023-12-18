@@ -1,0 +1,148 @@
+.index {
+    background-color: black;
+}
+
+.recipe {
+    background-color: darkolivegreen;
+}
+
+body {
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+main#index .menu {
+    background-color: black;
+    border-top: solid black;
+    border-bottom: solid black;
+}
+
+main#index header {
+    min-width: 400px;
+    max-width: 100%;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 140%;
+    background-color: black;
+    padding: 5px;
+}
+
+main#recipe .menu {
+    background-color: darkolivegreen;
+    border-top: solid darkolivegreen;
+    border-bottom: solid darkolivegreen;
+}
+
+main#recipe header {
+    min-width: 400px;
+    max-width: 100%;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    background-color: darkolivegreen;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+main#recipe header nav a, a:visited {
+    text-decoration:none;
+    color: whitesmoke;
+    font-size: 1em;
+}
+
+header nav ul li {
+    display: inline;
+    border:4px solid whitesmoke;
+    padding:10px;
+}
+
+header nav a, a:visited {
+    text-decoration:none;
+    color: whitesmoke;
+    font-size: 1em;
+}
+
+header nav a:hover{font-style: italic;}
+
+main#recipe header nav ul li {
+    border:4px solid whitesmoke;
+    color: whitesmoke;
+}
+
+footer {
+    color: whitesmoke;
+    background-color: black;
+    min-width: 400px;
+    max-width: 100%;
+    padding: 20px;
+    padding-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+footer a, a:visited {color: whitesmoke;}
+
+.recipe_footer {
+    background-color: darkolivegreen;
+}
+
+div#background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+div#bgtext {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 5em;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+div#recipe_text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.6);
+    color: white;
+    font-weight: bold;
+    font-size: 75%;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    margin-top: 1%;
+    width: 90%;
+    padding: 20px;
+    text-align: left;
+}
+div#recipe_text h1 {
+    font-size: 200%;
+    text-align: center;
+}
+
+div#recipe_text h2 {
+    font-size: 120%;
+}
+
+div#recipe_text h3 {
+    font-size: 120%;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
